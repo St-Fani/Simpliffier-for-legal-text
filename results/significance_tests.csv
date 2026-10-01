@@ -1,0 +1,16 @@
+test_set,metric,system_a,system_b,mean_a,mean_b,shapiro_p,wilcoxon_p,significant
+tos_test,sari_norm,two_stage,stage2_only,51.537,50.457,0.0,0.7276,False
+tos_test,forward,two_stage,stage2_only,0.225,0.062,0.0,0.0054,False
+tos_test,grade_drop,two_stage,stage2_only,8.578,9.263,0.0001,0.0572,False
+tos_test,sari_norm,haiku,two_stage,41.028,51.537,0.0,0.0,True
+tos_test,forward,haiku,two_stage,0.312,0.225,0.2558,0.2562,False
+tos_test,grade_drop,haiku,two_stage,4.929,8.578,0.1333,0.0,True
+tos_test,sari_norm,haiku,stage2_only,41.028,50.457,0.0086,0.0,True
+tos_test,forward,haiku,stage2_only,0.312,0.062,0.1243,0.0009,True
+tos_test,grade_drop,haiku,stage2_only,4.929,9.263,0.5856,0.0,True
+cuad_probe,forward,two_stage,stage2_only,0.462,-0.003,0.0,0.0,True
+cuad_probe,grade_drop,two_stage,stage2_only,13.398,15.143,0.0204,0.0,True
+cuad_probe,forward,haiku,two_stage,0.704,0.462,0.0,0.0,True
+cuad_probe,grade_drop,haiku,two_stage,10.332,13.398,0.0126,0.0,True
+cuad_probe,forward,haiku,stage2_only,0.704,-0.003,0.0,0.0,True
+cuad_probe,grade_drop,haiku,stage2_only,10.332,15.143,0.2218,0.0,True
